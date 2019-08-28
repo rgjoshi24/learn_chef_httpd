@@ -1,8 +1,8 @@
 trigger:
 - master
 
-#pool:
-#  name: Linux-AgentPool
+pool:
+ name: PipelinePool
 #  demands:
 #    - app_family -equals java
 #    - aws_env -equals development
