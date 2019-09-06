@@ -33,7 +33,7 @@ pipeline {
         //}
         stage('lint') {
          steps {
-                    //Accepted License to yes
+                    //Accepted License to yes for latest policy change
                     sh 'chef env --chef-license accept'
                     sh 'echo "Starting foodcritic: "'
                     sh 'foodcritic . --tags -FC078'
